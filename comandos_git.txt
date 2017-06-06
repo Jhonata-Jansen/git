@@ -1,0 +1,68 @@
+=== comandos git ===
+git config --global user.name "nome"
+git config --global user.email "e-mail"
+git config --global -l **lista os usuario
+
+=== gitignori ===
+.gitignore
+arquivo.txt
+pasta/
+
+=== comandos basicos ===
+git init    **criar um repositorio
+git status  **status atual do progeto
+git add .   **add um repositori na aria de espera
+git reset HEAD arquivo
+git rm arquivo
+
+=== commits ===
+git commit -m "msg"
+git commit -a -m "msg"
+git commit --amend -m "msg" **edita o ultimo commit
+git checkout -- nome do arquivo **volta ao arquivo original
+
+=== status do repositorio ===
+git diff
+git diff --staged
+git log	**mostra todos o commits
+git log --pretty=oneline **mostra todo os commit com chave
+gitk
+
+=== tag ===
+git tag **lista todas as tag
+git tag -a v1.0 -m "msg" **criar uma tag
+git tag -a v0.0 chave_do_commit -m "msg"
+git show nome da tag **mostra mais detalhe da tag
+git checkout v1.0 **seleciona a tag
+git tag -d nome_da_tag **para apaga uma tag
+
+=== branch ===
+git branch nome **para criar um branch
+git checkout nome **para seleciona o branch
+git checkout -b nome **criar e seleciona o branch
+git merge nome **para junta o branch com o master
+git branch -d nome **para apaga o branch criado
+
+=== github ===
+ssh-keygen **criar uma chave ssh 
+git clone camilho nome-da-pasta **faz uma copia e cria uma pasta
+git push origin master **envia para repositorio no github
+git pull origin master **para altuliza o repositori local
+git remote add origin https..... **adiciona um servidor remoto
+git remote , -v **lista o repositorio remotoss
+
+=== github2 ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
